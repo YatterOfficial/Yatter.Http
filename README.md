@@ -15,8 +15,8 @@ We intend releasing a Nuget package for this really soon.
 ### INTRODUCTION
 This library is being created in support of our [Yatter API](https://github.com/HarrisonOfTheNorth/Yatter), which utilises both:
 
-- [HarryHotdog.UI.Blazor.Components](https://github.com/HarrisonOfTheNorth/HarryHotdog.UI.Blazor.Components), and
-- [HarryHotdog.UI.ListBuilder](https://github.com/HarrisonOfTheNorth/HarryHotdog.UI.ListBuilder)
+- [Yatter.UI.Blazor.Components](https://github.com/HarrisonOfTheNorth/Yatter.UI.Blazor.Components), and
+- [Yatter.UI.ListBuilder](https://github.com/HarrisonOfTheNorth/Yatter.UI.ListBuilder)
 
 and which demonstrates a lightweight ListView builder and Blazor renderer.
 
