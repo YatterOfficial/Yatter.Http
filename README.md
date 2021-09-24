@@ -2,7 +2,7 @@
 
 We are progressively building this solution from a custom ListView pattern that we already use in Xamarin Forms, and as you can't read our mind, you wont know from one week to another where we are going on this. So beware. We are, however, developing on various branches, and commiting approved updates to the master branch, so the master branch can be considered to have better form than the development branches. It's a winding road to Camelot!
 
-# HarryHotdog.Http.ResponsiveHttpClient
+# Yatter.Http.ResponsiveHttpClient
 
 A lightweight implementation of ```System.Net.HttpClient``` optimised for mobile using a generics ```TRequest/TResponse``` pattern; uses ```C#``` and is Unit Tested using the Open Weather Map API as an information source.
 
