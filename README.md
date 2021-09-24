@@ -10,7 +10,9 @@ This is based upon the author's own project (circa Feb 2017) at [https://github.
 
 Until we update this ReadMe, the ReadMe in that repo is current for this one, which has extensive examples, including how that one was unit tested.
 
-We intend releasing a Nuget package for this really soon.
+We intend releasing a Nuget package for this really soon. But did we say really soon? Hmmmn, perhaps not. Well, it has to evolve first, we've yet to implement header functionality, and although that will be a doddle, we need to make sure that the integrity of the TRequest/TResponse pattern is not compromised. Which means that this only needs to be ready when the list-builder itself goes into Beta.
+
+Which in the scheme of things, shouldn't be too far away.
 
 ### INTRODUCTION
 This library is being created in support of our [Yatter API](https://github.com/HarrisonOfTheNorth/Yatter), which utilises both:
