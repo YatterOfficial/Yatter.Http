@@ -14,6 +14,10 @@ namespace Yatter.Http.Responsive
         /// </summary>
         public string ApiPath { get; protected set; }
         /// <summary>
+        /// HttpContent for POST operations
+        /// </summary>
+        public HttpContent HttpContent { get; protected set; }
+        /// <summary>
         /// 
         /// </summary>
         /// <param name="client">The method of adding the internal HttpClient of the ResponsiveHttpClient so that when overriding this function, that such things as the Default Headers can be accessed.</param>

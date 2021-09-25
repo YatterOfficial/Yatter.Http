@@ -10,5 +10,6 @@ namespace Yatter.Http.Clients
     {
         void OverrideDefaultHttpMessageHandler(HttpMessageHandler handler);
         Task<TResponse> GetAsync<TResponse, TRequest>(TRequest request) where TRequest : RequestBase, new() where TResponse : ResponseBase, new();
+        Task<TResponse> PostAsync<TResponse, TRequest>(TRequest request) where TRequest : RequestBase, new() where TResponse : ResponseBase, new();
     }
 }
