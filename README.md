@@ -12,6 +12,8 @@ Until we update this ReadMe, the ReadMe in that repo is current for this one, wh
 
 **However this repo includes enhancement to the original, including PostAsync, which the original did not have.**
 
+We have now created a demo of _this_ library at our [Yatter-ResponsiveHttpClient-Demo](https://github.com/HarrisonOfTheNorth/Yatter-ResponsiveHttpClient-Demo) repo.
+
 ### INTRODUCTION
 This library is being created in support of our [Yatter API](https://github.com/HarrisonOfTheNorth/Yatter), which utilises both:
 
