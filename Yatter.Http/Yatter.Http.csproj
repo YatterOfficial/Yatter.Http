@@ -10,8 +10,8 @@
     <None Remove="Yatter.Invigoration" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Yatter.Invigoration" Version="0.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Responsive\" />
