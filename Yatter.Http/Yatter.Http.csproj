@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Anthony Harrison</Authors>
+    <Copyright>Anthony Harrison</Copyright>
+    <PackageIconUrl>https://avatars.githubusercontent.com/u/92665945</PackageIconUrl>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>Anthony Harrison</Owners>
+    <PackageProjectUrl>https://github.com/YatterOfficial/Yatter.Http</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReleaseNotes>Alpha Release</PackageReleaseNotes>
+    <Summary>Yatter's TRequest / TResponse Responsive HttpClient, utilising System.Net.Http.HttpClient with the said generics pattern, and with the HttpClient and HttpResponseMessage fully exposed in the RequestBase and ResponseBase, respectively.</Summary>
+    <PackageTags>Yatter</PackageTags>
+    <Title>Yatter.Http</Title>
+    <Description>Yatter's TRequest / TResponse Responsive HttpClient, utilising System.Net.Http.HttpClient with the said generics pattern, and with the HttpClient and HttpResponseMessage fully exposed in the RequestBase and ResponseBase, respectively.</Description>
+    <PackageId>Yatter.Http</PackageId>
+    <PackOnBuild>true</PackOnBuild>
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,10 +28,17 @@
     <None Remove="Yatter.Invigoration" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Yatter.Invigoration" Version="0.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+    <PackageReference Include="Yatter.Invigoration" Version="0.3.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Responsive\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>

@@ -3,6 +3,10 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Yatter.Http;
 using Yatter.Http.Responsive;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading;
 
 namespace Yatter.Http.Clients
 {
