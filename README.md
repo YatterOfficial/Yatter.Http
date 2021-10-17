@@ -17,8 +17,8 @@ We have now created a demo of _this_ library at our [Yatter-ResponsiveHttpClient
 ### INTRODUCTION
 This library is being created in support of our [Yatter API](https://github.com/HarrisonOfTheNorth/Yatter), which utilises both:
 
-- [Yatter.UI.Blazor.Components](https://github.com/HarrisonOfTheNorth/Yatter.UI.Blazor.Components), and
-- [Yatter.UI.ListBuilder](https://github.com/HarrisonOfTheNorth/Yatter.UI.ListBuilder)
+- [Yatter.UI.Blazor.Components](https://github.com/YatterOfficial/Yatter.UI.Blazor.Components), and
+- [Yatter.UI.ListBuilder](https://github.com/YatterOfficial/Yatter.UI.ListBuilder)
 
 and which demonstrates a lightweight ListView builder and Blazor renderer.
 
