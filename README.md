@@ -34,3 +34,4 @@ Given that the serialisation and deserialisation will be constant in accordance 
 
 Our ```ResponsiveHttpClient```, herein, is quite easily capable of such TRequest/TResponse pattern behaviour.
 
+y@R and You-At-A-Resource are trademarks of Count Anthony Harrison, operating from the United Kingdom
