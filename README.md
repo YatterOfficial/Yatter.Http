@@ -8,6 +8,8 @@ We are progressively building this solution from a custom ListView pattern that 
 
 ![GitHub](https://img.shields.io/github/license/yatterofficial/Yatter.Http?style=for-the-badge)
 
+[![Yatter.Http on fuget.org](https://www.fuget.org/packages/Yatter.Http/badge.svg)](https://www.fuget.org/packages/Yatter.Http)
+
 A lightweight implementation of ```System.Net.HttpClient``` optimised for mobile using a generics ```TRequest/TResponse``` pattern; uses ```C#``` and is Unit Tested using the Open Weather Map API as an information source.
 
 This is based upon the author's own project (circa Feb 2017) at [https://github.com/HarrisonOfTheNorth/ResponsiveHttpClient](https://github.com/HarrisonOfTheNorth/ResponsiveHttpClient)
